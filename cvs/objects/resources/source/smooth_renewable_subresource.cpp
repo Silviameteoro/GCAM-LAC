@@ -60,10 +60,10 @@ extern Scenario* scenario;
 // Constructor: SmoothRenewableSubresource: ********************************
 
 SmoothRenewableSubresource::SmoothRenewableSubresource(void)
-   : mCostCurve()
+   : mCostCurve(),
+mPriceExponent( 0.01 ),
+mMidPrice( 0.0 )
 {
-    mPriceExponent = 0.01;
-    mMidPrice = 0;
 }
 
 // Destructor: SmoothRenewableSubresource
@@ -89,19 +89,34 @@ const std::string& SmoothRenewableSubresource::getXMLNameStatic( void ){
 
 // SmoothRenewableSubresource::XMLDerivedClassParse
 bool SmoothRenewableSubresource::XMLDerivedClassParse( const std::string& nodeName, const xercesc::DOMNode* node ){
+    const Modeltime* modeltime = scenario->getModeltime();
     bool didParse = SubRenewableResource::XMLDerivedClassParse( nodeName, node );
     if ( !didParse ){
         if( nodeName == "mid-price" ){
-            mMidPrice = XMLHelper<double>::getValue( node );
-            mCostCurve.setMidprice( mMidPrice );
+            if( XMLHelper<int>::getAttr(node, "year") == 0 ) {
+                std::fill( mMidPrice.begin(), mMidPrice.end(), XMLHelper<double>::getValue( node ));
+            }
+            else {
+                XMLHelper<double>::insertValueIntoVector(node, mMidPrice, modeltime);
+            }
             didParse = true;
         }
         else if( nodeName == "curve-exponent" ){
-            mCostCurve.setCurveExponent( XMLHelper<double>::getValue( node ) );
+            if( XMLHelper<int>::getAttr(node, "year") == 0 ) {
+                std::fill( mCurveExponent.begin(), mCurveExponent.end(), XMLHelper<double>::getValue( node ));
+            }
+            else {
+                XMLHelper<double>::insertValueIntoVector(node, mCurveExponent, modeltime);
+            }
             didParse = true;
         }
         else if ( nodeName == "price-exponent" ){
-            mPriceExponent = XMLHelper<double>::getValue( node );
+            if( XMLHelper<int>::getAttr(node, "year") == 0 ) {
+                std::fill( mPriceExponent.begin(), mPriceExponent.end(), XMLHelper<double>::getValue( node ));
+            }
+            else {
+                XMLHelper<double>::insertValueIntoVector(node, mPriceExponent, modeltime);
+            }
             didParse = true;
         }
     }
@@ -113,15 +128,6 @@ bool SmoothRenewableSubresource::XMLDerivedClassParse( const std::string& nodeNa
 void SmoothRenewableSubresource::completeInit( const IInfo* aSectorInfo )
 {
    SubRenewableResource::completeInit( aSectorInfo );
-
-   if ( !( mCostCurve.getMidprice() > 0 && mCostCurve.getCurveExponent() > 0 ) )
-   // Invalid input parameter
-   {
-      ILogger& mainLog = ILogger::getLogger( "main_log" );
-      mainLog.setLevel( ILogger::ERROR );
-      mainLog << "Invalid input parameter(s) to " << getXMLNameStatic() << std::endl;
-      exit( -1 );
-   }
 }
 
 /*! \brief Perform any initializations needed for each period.
@@ -149,7 +155,17 @@ void SmoothRenewableSubresource::initCalc(const std::string& aRegionName, const 
                     pow( ( 1.0 + mTechChange[ aPeriod ] ), modeltime->gettimestep( aPeriod ) );
     }
 
-    mCostCurve.setMidprice( mMidPrice / mCumulativeTechChange[ aPeriod ] );
+    mCostCurve.setMidprice( mMidPrice[ aPeriod ] / mCumulativeTechChange[ aPeriod ] );
+    mCostCurve.setCurveExponent( mCurveExponent[ aPeriod ] );
+    
+    if ( !( mCostCurve.getMidprice() > 0 && mCostCurve.getCurveExponent() > 0 ) )
+        // Invalid input parameter
+    {
+        ILogger& mainLog = ILogger::getLogger( "main_log" );
+        mainLog.setLevel( ILogger::ERROR );
+        mainLog << "Invalid input parameter(s) to " << getXMLNameStatic() << std::endl;
+        exit( -1 );
+    }
 
 }
 
@@ -161,16 +177,16 @@ void SmoothRenewableSubresource::annualsupply( int aPeriod, const GDP* aGDP, dou
     double fractionAvailable = mCostCurve( aPrice );
     
     // Make supply increase continuously with price to improve convergence.
-    // Default mPriceExponent value is very small so as not to significantly change resource base
+    // Default mPriceExponent value is very small so as nbot to significantly change resource base
     // The factor of 5 below is arbitary, but was chosen so as to not change results signifiantly.
     // The equation below changes max resource value (using default  mPriceExponent) by 1% at 2 * mid-price.
     if( aPrice > 0 ) {
-        fractionAvailable *= std::pow( ( 1 + ( aPrice / ( 5.0 * mCostCurve.getMidprice() ) ) ), mPriceExponent );
+        fractionAvailable *= std::pow( ( 1 + ( aPrice / ( 5.0 * mCostCurve.getMidprice() ) ) ), mPriceExponent[ aPeriod ] );
     }
     else {
         // if aPrice <0, avoid NaN by using the first two terms in the
         // series expansion of the above.
-        fractionAvailable *= 1.0 + mPriceExponent * aPrice / ( 5.0 * mCostCurve.getMidprice() );
+        fractionAvailable *= 1.0 + mPriceExponent[ aPeriod ] * aPrice / ( 5.0 * mCostCurve.getMidprice() );
         // If the result is negative, clamp it to zero.
         if( fractionAvailable < 0.0 ) {
             fractionAvailable = 0.0;
@@ -217,8 +233,8 @@ double SmoothRenewableSubresource::getHighestPrice( const int aPeriod ) const{
     // provide for changing the mid-price or exponent, so it only
     // needs to be calculated once.
 
-    double curveExp = mCostCurve.getCurveExponent();
-    double value = pow( 99.0 * pow( mMidPrice, curveExp ), 1.0 / curveExp );
+    double curveExp = mCurveExponent[ aPeriod ];
+    double value = pow( 99.0 * pow( mMidPrice[aPeriod ], curveExp ), 1.0 / curveExp );
 
     return value;
 }

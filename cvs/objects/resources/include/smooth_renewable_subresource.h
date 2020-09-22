@@ -100,10 +100,12 @@ protected :
         SubRenewableResource,
         
         //! Multiplier price increase
-        DEFINE_VARIABLE( SIMPLE, "price-exponent", mPriceExponent, double ),
+        DEFINE_VARIABLE( ARRAY, "price-exponent", mPriceExponent, objects::PeriodVector<double> ),
         
         //! Mid-price for cost curve, assuming no technical change
-        DEFINE_VARIABLE( SIMPLE, "mid-price", mMidPrice, double )
+        DEFINE_VARIABLE( ARRAY, "mid-price", mMidPrice, objects::PeriodVector<double> ),
+        
+        DEFINE_VARIABLE( ARRAY, "curve-exponent", mCurveExponent, objects::PeriodVector<double> )
     )
 
    //! The cost curve calculator
