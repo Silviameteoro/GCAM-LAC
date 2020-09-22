@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+	<ComponentSet name="_Impacts">
+      	<FileSet name="_NoCI_GFDL">
+			<Value name = "wind_hist">../input/idb/impacts/Wind/Wind_GFDL-ESM2M_histor_19710101-20001231.xml</Value>
+			<Value name = "solar_CSP_PV_hist">../input/idb/impacts/Solar/GCAM_LAC_CSP_PV_GFDL-ESM2M_hist.xml</Value>
+			<Value name = "solar_PVres_hist">../input/idb/impacts/Solar/PVres_GFDL-ESM2M_histor_19710101-20001231.xml</Value>	
+      	</FileSet>
+
+      	<FileSet name="_NoCI_HADGEM">
+			<Value name = "wind_hist">../input/idb/impacts/Wind/Wind_HadGEM2-ES_histor_19710101-20001231.xml</Value>
+			<Value name = "solar_CSP_PV_hist">../input/idb/impacts/Solar/GCAM_LAC_CSP_PV_HadGEM2-ES_hist.xml</Value>
+			<Value name = "solar_PVres_hist">../input/idb/impacts/Solar/PVres_HadGEM2-ES_histor_19710101-20001231.xml</Value>	
+      	</FileSet>
+
+      	<FileSet name="_NoCI_IPSL">	
+			<Value name = "wind_hist">../input/idb/impacts/Wind/Wind_IPSL-CM5A-LR_histor_19710101-20001231.xml</Value>	
+			<Value name = "solar_CSP_PV_hist">../input/idb/impacts/Solar/GCAM_LAC_CSP_PV_IPSL-CM5A-LR_hist.xml</Value>
+			<Value name = "solar_PVres_hist">../input/idb/impacts/Solar/PVres_IPSL-CM5A-LR_histor_19710101-20001231.xml</Value>		
+      	</FileSet>
+
+		<FileSet name="_CI_GFDL">
+ 			<Value name = "hydro">../input/idb/impacts/Hydro/hydro_impacts_GFDL-ESM2M_rcp2p6.xml</Value>
+      			<Value name = "water">../input/idb/impacts/Water/runoff_impacts_GFDL-ESM2M_rcp2p6.xml</Value>
+			<Value name = "wind_hist">../input/idb/impacts/Wind/Wind_GFDL-ESM2M_histor_19710101-20001231.xml</Value>
+			<Value name = "solar_CSP_PV_hist">../input/idb/impacts/Solar/GCAM_LAC_CSP_PV_GFDL-ESM2M_hist.xml</Value>
+			<Value name = "solar_PVres_hist">../input/idb/impacts/Solar/PVres_GFDL-ESM2M_histor_19710101-20001231.xml</Value>				
+		</FileSet>
+
+		<FileSet name="_CI_HADGEM">
+			<Value name = "hydro">../input/idb/impacts/Hydro/hydro_impacts_HadGEM2-ES_rcp2p6.xml</Value>
+      			<Value name = "water">../input/idb/impacts/Water/runoff_impacts_HadGEM2-ES_rcp2p6.xml</Value>
+			<Value name = "wind_hist">../input/idb/impacts/Wind/Wind_HadGEM2-ES_histor_19710101-20001231.xml</Value>
+			<Value name = "solar_CSP_PV_hist">../input/idb/impacts/Solar/GCAM_LAC_CSP_PV_HadGEM2-ES_hist.xml</Value>
+			<Value name = "solar_PVres_hist">../input/idb/impacts/Solar/PVres_HadGEM2-ES_histor_19710101-20001231.xml</Value>				
+		</FileSet>
+
+		<FileSet name="_CI_IPSL">
+			<Value name = "hydro">../input/idb/impacts/Hydro/hydro_impacts_IPSL-CM5A-LR_rcp2p6.xml</Value>
+      			<Value name = "water">../input/idb/impacts/Water/runoff_impacts_IPSL-CM5A-LR_rcp2p6.xml</Value>
+			<Value name = "wind_hist">../input/idb/impacts/Wind/Wind_IPSL-CM5A-LR_histor_19710101-20001231.xml</Value>	
+			<Value name = "solar_CSP_PV_hist">../input/idb/impacts/Solar/GCAM_LAC_CSP_PV_IPSL-CM5A-LR_hist.xml</Value>
+			<Value name = "solar_PVres_hist">../input/idb/impacts/Solar/PVres_IPSL-CM5A-LR_histor_19710101-20001231.xml</Value>				
+		</FileSet>
+
+	</ComponentSet>
+
+</BatchRunner>
