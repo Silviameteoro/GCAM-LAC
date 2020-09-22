@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">28.35933</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.8</mid-price>
+                    <curve-exponent fillout="1" year="1975">9.121</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Eastern">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">41.66386</maxSubResource>
+                    <mid-price fillout="1" year="1975">11.3</mid-price>
+                    <curve-exponent fillout="1" year="1975">6.952</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Northern">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">73.43645</maxSubResource>
+                    <mid-price fillout="1" year="1975">13.2</mid-price>
+                    <curve-exponent fillout="1" year="1975">8.804</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Southern">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">7.87653</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.2</mid-price>
+                    <curve-exponent fillout="1" year="1975">4.773</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Western">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">59.22598</maxSubResource>
+                    <mid-price fillout="1" year="1975">12.9</mid-price>
+                    <curve-exponent fillout="1" year="1975">7.657</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Australia_NZ">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">89.83847</maxSubResource>
+                    <mid-price fillout="1" year="1975">9.7</mid-price>
+                    <curve-exponent fillout="1" year="1975">6.713</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Brazil">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">4.48451</maxSubResource>
+                    <mid-price fillout="1" year="1975">8.7</mid-price>
+                    <curve-exponent fillout="1" year="1975">7.516</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Canada">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">48.37222</maxSubResource>
+                    <mid-price fillout="1" year="1975">14.4</mid-price>
+                    <curve-exponent fillout="1" year="1975">6.649</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Central America and Caribbean">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.31636</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.4</mid-price>
+                    <curve-exponent fillout="1" year="1975">4.171</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Central Asia">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">61.46348</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.5</mid-price>
+                    <curve-exponent fillout="1" year="1975">5.740</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="China">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">17.79135</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.3</mid-price>
+                    <curve-exponent fillout="1" year="1975">4.087</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="EU-12">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">1.06899</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.8</mid-price>
+                    <curve-exponent fillout="1" year="1975">4.749</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="EU-15">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">6.72332</maxSubResource>
+                    <mid-price fillout="1" year="1975">10.6</mid-price>
+                    <curve-exponent fillout="1" year="1975">75.500</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Europe_Eastern">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">1.90510</maxSubResource>
+                    <mid-price fillout="1" year="1975">6.1</mid-price>
+                    <curve-exponent fillout="1" year="1975">3.985</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Europe_Non_EU">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.20780</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.1</mid-price>
+                    <curve-exponent fillout="1" year="1975">3.027</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="European Free Trade Association">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">1.63995</maxSubResource>
+                    <mid-price fillout="1" year="1975">15.1</mid-price>
+                    <curve-exponent fillout="1" year="1975">1.749</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="India">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">5.60835</maxSubResource>
+                    <mid-price fillout="1" year="1975">4.8</mid-price>
+                    <curve-exponent fillout="1" year="1975">2.657</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Indonesia">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.03450</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.8</mid-price>
+                    <curve-exponent fillout="1" year="1975">115.521</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Japan">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.14331</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.0</mid-price>
+                    <curve-exponent fillout="1" year="1975">31.708</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Mexico">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">1.39351</maxSubResource>
+                    <mid-price fillout="1" year="1975">8.1</mid-price>
+                    <curve-exponent fillout="1" year="1975">3.032</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Middle East">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">20.59759</maxSubResource>
+                    <mid-price fillout="1" year="1975">8.8</mid-price>
+                    <curve-exponent fillout="1" year="1975">3.041</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Pakistan">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">2.78050</maxSubResource>
+                    <mid-price fillout="1" year="1975">12.3</mid-price>
+                    <curve-exponent fillout="1" year="1975">4.665</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Russia">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">31.21391</maxSubResource>
+                    <mid-price fillout="1" year="1975">10.2</mid-price>
+                    <curve-exponent fillout="1" year="1975">5.991</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South Africa">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">7.69847</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.1</mid-price>
+                    <curve-exponent fillout="1" year="1975">8.816</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South America_Northern">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.29417</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.3</mid-price>
+                    <curve-exponent fillout="1" year="1975">5.352</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South America_Southern">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">2.13893</maxSubResource>
+                    <mid-price fillout="1" year="1975">9.8</mid-price>
+                    <curve-exponent fillout="1" year="1975">7.472</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South Asia">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">2.83838</maxSubResource>
+                    <mid-price fillout="1" year="1975">8.5</mid-price>
+                    <curve-exponent fillout="1" year="1975">4.692</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South Korea">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.15943</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.1</mid-price>
+                    <curve-exponent fillout="1" year="1975">32.863</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Southeast Asia">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.59834</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.2</mid-price>
+                    <curve-exponent fillout="1" year="1975">35.052</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Taiwan">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.08500</maxSubResource>
+                    <mid-price fillout="1" year="1975">5.7</mid-price>
+                    <curve-exponent fillout="1" year="1975">36.092</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Argentina">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">21.49304</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.6</mid-price>
+                    <curve-exponent fillout="1" year="1975">7.588</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Colombia">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">0.14427</maxSubResource>
+                    <mid-price fillout="1" year="1975">7.6</mid-price>
+                    <curve-exponent fillout="1" year="1975">7.590</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Uruguay">
+            <renewresource name="onshore wind resource">
+                <smooth-renewable-subresource name="onshore wind resource">
+                    <maxSubResource fillout="1" year="1975">1.65429</maxSubResource>
+                    <mid-price fillout="1" year="1975">9.0</mid-price>
+                    <curve-exponent fillout="1" year="1975">15.629</curve-exponent>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+    </world>
+</scenario>

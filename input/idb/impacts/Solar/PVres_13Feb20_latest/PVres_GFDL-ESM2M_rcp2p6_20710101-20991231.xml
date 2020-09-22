@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">2.13308</maxSubResource>
+                    <mid-price fillout="1" year="2075">10.81</mid-price>
+                    <curve-exponent fillout="1" year="2075">5.146</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Eastern">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.50094</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.57</mid-price>
+                    <curve-exponent fillout="1" year="2075">2.732</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Northern">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.61139</maxSubResource>
+                    <mid-price fillout="1" year="2075">2.32</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.409</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Southern">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.28781</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.70</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.309</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Africa_Western">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">1.06235</maxSubResource>
+                    <mid-price fillout="1" year="2075">3.25</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.228</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Australia_NZ">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.38605</maxSubResource>
+                    <mid-price fillout="1" year="2075">6.36</mid-price>
+                    <curve-exponent fillout="1" year="2075">4.600</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Brazil">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.77556</maxSubResource>
+                    <mid-price fillout="1" year="2075">2.88</mid-price>
+                    <curve-exponent fillout="1" year="2075">4.100</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Canada">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.16777</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.90</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.313</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Central America and Caribbean">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.28610</maxSubResource>
+                    <mid-price fillout="1" year="2075">2.11</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.605</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Central Asia">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.35730</maxSubResource>
+                    <mid-price fillout="1" year="2075">14.53</mid-price>
+                    <curve-exponent fillout="1" year="2075">9.659</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="China">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">8.28328</maxSubResource>
+                    <mid-price fillout="1" year="2075">3.81</mid-price>
+                    <curve-exponent fillout="1" year="2075">5.849</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="EU-12">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.54299</maxSubResource>
+                    <mid-price fillout="1" year="2075">6.29</mid-price>
+                    <curve-exponent fillout="1" year="2075">5.233</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="EU-15">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">1.82483</maxSubResource>
+                    <mid-price fillout="1" year="2075">7.09</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.670</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Europe_Eastern">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.22757</maxSubResource>
+                    <mid-price fillout="1" year="2075">2.17</mid-price>
+                    <curve-exponent fillout="1" year="2075">15.000</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Europe_Non_EU">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.33772</maxSubResource>
+                    <mid-price fillout="1" year="2075">11.36</mid-price>
+                    <curve-exponent fillout="1" year="2075">6.518</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="European Free Trade Association">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.04337</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.06</mid-price>
+                    <curve-exponent fillout="1" year="2075">6.089</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="India">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">3.62911</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.34</mid-price>
+                    <curve-exponent fillout="1" year="2075">5.886</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Indonesia">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.93475</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.86</mid-price>
+                    <curve-exponent fillout="1" year="2075">4.958</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Japan">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.29524</maxSubResource>
+                    <mid-price fillout="1" year="2075">3.14</mid-price>
+                    <curve-exponent fillout="1" year="2075">6.369</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Mexico">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.75928</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.03</mid-price>
+                    <curve-exponent fillout="1" year="2075">2.140</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Middle East">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.96520</maxSubResource>
+                    <mid-price fillout="1" year="2075">9.15</mid-price>
+                    <curve-exponent fillout="1" year="2075">10.103</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Pakistan">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.82470</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.26</mid-price>
+                    <curve-exponent fillout="1" year="2075">5.996</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Russia">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.56601</maxSubResource>
+                    <mid-price fillout="1" year="2075">22.43</mid-price>
+                    <curve-exponent fillout="1" year="2075">10.147</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South Africa">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.14583</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.37</mid-price>
+                    <curve-exponent fillout="1" year="2075">1.990</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South America_Northern">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.13007</maxSubResource>
+                    <mid-price fillout="1" year="2075">3.04</mid-price>
+                    <curve-exponent fillout="1" year="2075">5.398</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South America_Southern">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.34963</maxSubResource>
+                    <mid-price fillout="1" year="2075">3.44</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.239</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South Asia">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">1.04822</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.25</mid-price>
+                    <curve-exponent fillout="1" year="2075">4.762</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="South Korea">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.11834</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.32</mid-price>
+                    <curve-exponent fillout="1" year="2075">10.950</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Southeast Asia">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">1.63185</maxSubResource>
+                    <mid-price fillout="1" year="2075">1.64</mid-price>
+                    <curve-exponent fillout="1" year="2075">3.466</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Taiwan">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.15785</maxSubResource>
+                    <mid-price fillout="1" year="2075">0.91</mid-price>
+                    <curve-exponent fillout="1" year="2075">2.315</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Argentina">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.17680</maxSubResource>
+                    <mid-price fillout="1" year="2075">5.15</mid-price>
+                    <curve-exponent fillout="1" year="2075">13.082</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Colombia">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.18033</maxSubResource>
+                    <mid-price fillout="1" year="2075">4.20</mid-price>
+                    <curve-exponent fillout="1" year="2075">4.190</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+        <region name="Uruguay">
+            <renewresource name="distributed_solar">
+                <smooth-renewable-subresource name="distributed_solar">
+                    <maxSubResource fillout="1" year="2075">0.01493</maxSubResource>
+                    <mid-price fillout="1" year="2075">0.84</mid-price>
+                    <curve-exponent fillout="1" year="2075">9.642</curve-exponent>
+                    <gdpSupplyElast fillout="1" year="2075">0.1</gdpSupplyElast>
+                </smooth-renewable-subresource>
+            </renewresource>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="Argentina">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Colombia">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Brazil">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central America and Caribbean">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Mexico">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Northern">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Southern">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Uruguay">
+         <supplysector name="electricity">
+            <subsector name="nuclear">
+               <share-weight year="2020">0</share-weight >
+			   <share-weight year="2100">0</share-weight >
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2015" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+               <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                  <interpolation-function name="linear"/>
+               </interpolation-rule>
+            </subsector>
+         </supplysector>
+      </region>
+   </world>
+</scenario>

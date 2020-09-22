@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+	<world>
+		<region name="USA">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">28.05781</maxSubResource>
+					<maxSubResource fillout="1" year="2035">28.08357</maxSubResource>
+					<maxSubResource fillout="1" year="2075">27.94451</maxSubResource>
+					<mid-price fillout="1" year="1975">4.2</mid-price>
+					<mid-price fillout="1" year="2035">4.1</mid-price>
+					<mid-price fillout="1" year="2075">4.2</mid-price>
+					<curve-exponent fillout="1" year="1975">1.707</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.69</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.723</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">8.3841</maxSubResource>
+					<maxSubResource fillout="1" year="2035">8.56494</maxSubResource>
+					<maxSubResource fillout="1" year="2075">8.34931</maxSubResource>
+					<mid-price fillout="1" year="1975">5.8</mid-price>
+					<mid-price fillout="1" year="2035">5.6</mid-price>
+					<mid-price fillout="1" year="2075">5.8</mid-price>
+					<curve-exponent fillout="1" year="1975">2.037</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.035</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.133</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Africa_Eastern">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">63.64167</maxSubResource>
+					<maxSubResource fillout="1" year="2035">63.34446</maxSubResource>
+					<maxSubResource fillout="1" year="2075">63.57413</maxSubResource>
+					<mid-price fillout="1" year="1975">3.7</mid-price>
+					<mid-price fillout="1" year="2035">4.3</mid-price>
+					<mid-price fillout="1" year="2075">4.2</mid-price>
+					<curve-exponent fillout="1" year="1975">1.316</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.422</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.42</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">33.68801</maxSubResource>
+					<maxSubResource fillout="1" year="2035">33.79278</maxSubResource>
+					<maxSubResource fillout="1" year="2075">34.04676</maxSubResource>
+					<mid-price fillout="1" year="1975">1.4</mid-price>
+					<mid-price fillout="1" year="2035">1.4</mid-price>
+					<mid-price fillout="1" year="2075">1.4</mid-price>
+					<curve-exponent fillout="1" year="1975">2.215</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.185</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.148</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Africa_Northern">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">124.34517</maxSubResource>
+					<maxSubResource fillout="1" year="2035">124.51936</maxSubResource>
+					<maxSubResource fillout="1" year="2075">125.23604</maxSubResource>
+					<mid-price fillout="1" year="1975">4.2</mid-price>
+					<mid-price fillout="1" year="2035">4.1</mid-price>
+					<mid-price fillout="1" year="2075">4.1</mid-price>
+					<curve-exponent fillout="1" year="1975">3.944</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.845</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.811</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">59.97817</maxSubResource>
+					<maxSubResource fillout="1" year="2035">60.62633</maxSubResource>
+					<maxSubResource fillout="1" year="2075">61.53191</maxSubResource>
+					<mid-price fillout="1" year="1975">1.8</mid-price>
+					<mid-price fillout="1" year="2035">1.8</mid-price>
+					<mid-price fillout="1" year="2075">1.6</mid-price>
+					<curve-exponent fillout="1" year="1975">2.548</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.614</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.503</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Africa_Southern">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">37.58768</maxSubResource>
+					<maxSubResource fillout="1" year="2035">37.81604</maxSubResource>
+					<maxSubResource fillout="1" year="2075">37.78631</maxSubResource>
+					<mid-price fillout="1" year="1975">4.0</mid-price>
+					<mid-price fillout="1" year="2035">3.9</mid-price>
+					<mid-price fillout="1" year="2075">3.9</mid-price>
+					<curve-exponent fillout="1" year="1975">2.265</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.274</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.287</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">18.26243</maxSubResource>
+					<maxSubResource fillout="1" year="2035">18.66126</maxSubResource>
+					<maxSubResource fillout="1" year="2075">18.62916</maxSubResource>
+					<mid-price fillout="1" year="1975">1.4</mid-price>
+					<mid-price fillout="1" year="2035">1.4</mid-price>
+					<mid-price fillout="1" year="2075">1.8</mid-price>
+					<curve-exponent fillout="1" year="1975">2.697</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.91</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.75</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Africa_Western">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">108.62449</maxSubResource>
+					<maxSubResource fillout="1" year="2035">108.91177</maxSubResource>
+					<maxSubResource fillout="1" year="2075">109.30229</maxSubResource>
+					<mid-price fillout="1" year="1975">4.6</mid-price>
+					<mid-price fillout="1" year="2035">4.6</mid-price>
+					<mid-price fillout="1" year="2075">4.5</mid-price>
+					<curve-exponent fillout="1" year="1975">2.324</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.334</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.353</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">57.20633</maxSubResource>
+					<maxSubResource fillout="1" year="2035">58.27106</maxSubResource>
+					<maxSubResource fillout="1" year="2075">58.71239</maxSubResource>
+					<mid-price fillout="1" year="1975">1.8</mid-price>
+					<mid-price fillout="1" year="2035">1.7</mid-price>
+					<mid-price fillout="1" year="2075">1.6</mid-price>
+					<curve-exponent fillout="1" year="1975">2.492</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.581</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.593</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Australia_NZ">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">103.95289</maxSubResource>
+					<maxSubResource fillout="1" year="2035">105.9353</maxSubResource>
+					<maxSubResource fillout="1" year="2075">105.24438</maxSubResource>
+					<mid-price fillout="1" year="1975">7.4</mid-price>
+					<mid-price fillout="1" year="2035">7.1</mid-price>
+					<mid-price fillout="1" year="2075">7.2</mid-price>
+					<curve-exponent fillout="1" year="1975">2.944</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.849</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.884</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">49.08384</maxSubResource>
+					<maxSubResource fillout="1" year="2035">51.98036</maxSubResource>
+					<maxSubResource fillout="1" year="2075">51.18213</maxSubResource>
+					<mid-price fillout="1" year="1975">2.2</mid-price>
+					<mid-price fillout="1" year="2035">2.2</mid-price>
+					<mid-price fillout="1" year="2075">2.4</mid-price>
+					<curve-exponent fillout="1" year="1975">3.086</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.27</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.497</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Brazil">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">17.12828</maxSubResource>
+					<maxSubResource fillout="1" year="2035">17.55182</maxSubResource>
+					<maxSubResource fillout="1" year="2075">17.47849</maxSubResource>
+					<mid-price fillout="1" year="1975">7.8</mid-price>
+					<mid-price fillout="1" year="2035">7.4</mid-price>
+					<mid-price fillout="1" year="2075">7.4</mid-price>
+					<curve-exponent fillout="1" year="1975">3.287</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.293</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.23</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">7.34018</maxSubResource>
+					<maxSubResource fillout="1" year="2035">7.85478</maxSubResource>
+					<maxSubResource fillout="1" year="2075">7.76413</maxSubResource>
+					<mid-price fillout="1" year="1975">3.2</mid-price>
+					<mid-price fillout="1" year="2035">2.4</mid-price>
+					<mid-price fillout="1" year="2075">2.5</mid-price>
+					<curve-exponent fillout="1" year="1975">4.225</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.313</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.541</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Canada">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">6.38729</maxSubResource>
+					<maxSubResource fillout="1" year="2035">6.21272</maxSubResource>
+					<maxSubResource fillout="1" year="2075">6.23935</maxSubResource>
+					<mid-price fillout="1" year="1975">31.4</mid-price>
+					<mid-price fillout="1" year="2035">31.4</mid-price>
+					<mid-price fillout="1" year="2075">31.4</mid-price>
+					<curve-exponent fillout="1" year="1975">1.536</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.568</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.518</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.69498</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.64788</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.66011</maxSubResource>
+					<mid-price fillout="1" year="1975">5.0</mid-price>
+					<mid-price fillout="1" year="2035">5.9</mid-price>
+					<mid-price fillout="1" year="2075">5.4</mid-price>
+					<curve-exponent fillout="1" year="1975">147.803</curve-exponent>
+					<curve-exponent fillout="1" year="2035">149.981</curve-exponent>
+					<curve-exponent fillout="1" year="2075">148.028</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Central America and Caribbean">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">1.02583</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.01483</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.01959</maxSubResource>
+					<mid-price fillout="1" year="1975">6.3</mid-price>
+					<mid-price fillout="1" year="2035">6.1</mid-price>
+					<mid-price fillout="1" year="2075">5.8</mid-price>
+					<curve-exponent fillout="1" year="1975">2.363</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.261</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.183</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.4769</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.47152</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.47565</maxSubResource>
+					<mid-price fillout="1" year="1975">2.8</mid-price>
+					<mid-price fillout="1" year="2035">2.6</mid-price>
+					<mid-price fillout="1" year="2075">2.9</mid-price>
+					<curve-exponent fillout="1" year="1975">3.429</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.238</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.625</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Central Asia">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">53.2078</maxSubResource>
+					<maxSubResource fillout="1" year="2035">53.55552</maxSubResource>
+					<maxSubResource fillout="1" year="2075">53.63911</maxSubResource>
+					<mid-price fillout="1" year="1975">5.5</mid-price>
+					<mid-price fillout="1" year="2035">5.4</mid-price>
+					<mid-price fillout="1" year="2075">5.5</mid-price>
+					<curve-exponent fillout="1" year="1975">2.388</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.355</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.363</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">11.38172</maxSubResource>
+					<maxSubResource fillout="1" year="2035">11.71593</maxSubResource>
+					<maxSubResource fillout="1" year="2075">11.80326</maxSubResource>
+					<mid-price fillout="1" year="1975">7.2</mid-price>
+					<mid-price fillout="1" year="2035">6.9</mid-price>
+					<mid-price fillout="1" year="2075">6.2</mid-price>
+					<curve-exponent fillout="1" year="1975">2.515</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.784</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.402</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="China">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">45.12145</maxSubResource>
+					<maxSubResource fillout="1" year="2035">45.3614</maxSubResource>
+					<maxSubResource fillout="1" year="2075">45.65731</maxSubResource>
+					<mid-price fillout="1" year="1975">4.2</mid-price>
+					<mid-price fillout="1" year="2035">4.2</mid-price>
+					<mid-price fillout="1" year="2075">4.5</mid-price>
+					<curve-exponent fillout="1" year="1975">1.385</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.39</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.487</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">12.0271</maxSubResource>
+					<maxSubResource fillout="1" year="2035">12.18461</maxSubResource>
+					<maxSubResource fillout="1" year="2075">12.49084</maxSubResource>
+					<mid-price fillout="1" year="1975">9.4</mid-price>
+					<mid-price fillout="1" year="2035">9.8</mid-price>
+					<mid-price fillout="1" year="2075">9.6</mid-price>
+					<curve-exponent fillout="1" year="1975">4.406</curve-exponent>
+					<curve-exponent fillout="1" year="2035">5.051</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.052</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="EU-12">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">1.44776</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.4855</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.49528</maxSubResource>
+					<mid-price fillout="1" year="1975">7.4</mid-price>
+					<mid-price fillout="1" year="2035">6.9</mid-price>
+					<mid-price fillout="1" year="2075">7.2</mid-price>
+					<curve-exponent fillout="1" year="1975">3.72</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.492</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.612</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.18218</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.19929</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.2065</maxSubResource>
+					<mid-price fillout="1" year="1975">22.4</mid-price>
+					<mid-price fillout="1" year="2035">22.8</mid-price>
+					<mid-price fillout="1" year="2075">22.7</mid-price>
+					<curve-exponent fillout="1" year="1975">150.0</curve-exponent>
+					<curve-exponent fillout="1" year="2035">149.999</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.462</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="EU-15">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">4.35969</maxSubResource>
+					<maxSubResource fillout="1" year="2035">4.42437</maxSubResource>
+					<maxSubResource fillout="1" year="2075">4.43626</maxSubResource>
+					<mid-price fillout="1" year="1975">6.9</mid-price>
+					<mid-price fillout="1" year="2035">6.5</mid-price>
+					<mid-price fillout="1" year="2075">6.5</mid-price>
+					<curve-exponent fillout="1" year="1975">1.831</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.764</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.749</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.79724</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.85099</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.85873</maxSubResource>
+					<mid-price fillout="1" year="1975">13.0</mid-price>
+					<mid-price fillout="1" year="2035">12.2</mid-price>
+					<mid-price fillout="1" year="2075">11.4</mid-price>
+					<curve-exponent fillout="1" year="1975">2.108</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.128</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.045</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Europe_Eastern">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">1.51498</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.54954</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.56217</maxSubResource>
+					<mid-price fillout="1" year="1975">3.4</mid-price>
+					<mid-price fillout="1" year="2035">3.4</mid-price>
+					<mid-price fillout="1" year="2075">3.3</mid-price>
+					<curve-exponent fillout="1" year="1975">2.854</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.766</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.694</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.18718</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.21678</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.2251</maxSubResource>
+					<mid-price fillout="1" year="1975">8.9</mid-price>
+					<mid-price fillout="1" year="2035">10.2</mid-price>
+					<mid-price fillout="1" year="2075">10.6</mid-price>
+					<curve-exponent fillout="1" year="1975">149.982</curve-exponent>
+					<curve-exponent fillout="1" year="2035">147.531</curve-exponent>
+					<curve-exponent fillout="1" year="2075">149.995</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Europe_Non_EU">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">2.13197</maxSubResource>
+					<maxSubResource fillout="1" year="2035">2.19558</maxSubResource>
+					<maxSubResource fillout="1" year="2075">2.20158</maxSubResource>
+					<mid-price fillout="1" year="1975">6.4</mid-price>
+					<mid-price fillout="1" year="2035">6.0</mid-price>
+					<mid-price fillout="1" year="2075">5.9</mid-price>
+					<curve-exponent fillout="1" year="1975">3.153</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.035</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.002</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.48238</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.52397</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.54123</maxSubResource>
+					<mid-price fillout="1" year="1975">5.7</mid-price>
+					<mid-price fillout="1" year="2035">5.9</mid-price>
+					<mid-price fillout="1" year="2075">5.1</mid-price>
+					<curve-exponent fillout="1" year="1975">2.546</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.635</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.348</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="European Free Trade Association">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">0.1738</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.17112</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.17121</maxSubResource>
+					<mid-price fillout="1" year="1975">30.6</mid-price>
+					<mid-price fillout="1" year="2035">31.0</mid-price>
+					<mid-price fillout="1" year="2075">31.0</mid-price>
+					<curve-exponent fillout="1" year="1975">1.864</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.756</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.783</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.01223</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.01216</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.01191</maxSubResource>
+					<mid-price fillout="1" year="1975">42.8</mid-price>
+					<mid-price fillout="1" year="2035">42.8</mid-price>
+					<mid-price fillout="1" year="2075">42.8</mid-price>
+					<curve-exponent fillout="1" year="1975">149.957</curve-exponent>
+					<curve-exponent fillout="1" year="2035">149.957</curve-exponent>
+					<curve-exponent fillout="1" year="2075">149.957</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="India">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">13.73541</maxSubResource>
+					<maxSubResource fillout="1" year="2035">13.82871</maxSubResource>
+					<maxSubResource fillout="1" year="2075">13.91085</maxSubResource>
+					<mid-price fillout="1" year="1975">3.6</mid-price>
+					<mid-price fillout="1" year="2035">3.5</mid-price>
+					<mid-price fillout="1" year="2075">3.5</mid-price>
+					<curve-exponent fillout="1" year="1975">4.86</curve-exponent>
+					<curve-exponent fillout="1" year="2035">4.805</curve-exponent>
+					<curve-exponent fillout="1" year="2075">4.691</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">5.95968</maxSubResource>
+					<maxSubResource fillout="1" year="2035">6.11382</maxSubResource>
+					<maxSubResource fillout="1" year="2075">6.19088</maxSubResource>
+					<mid-price fillout="1" year="1975">2.8</mid-price>
+					<mid-price fillout="1" year="2035">2.5</mid-price>
+					<mid-price fillout="1" year="2075">2.9</mid-price>
+					<curve-exponent fillout="1" year="1975">6.146</curve-exponent>
+					<curve-exponent fillout="1" year="2035">5.605</curve-exponent>
+					<curve-exponent fillout="1" year="2075">6.561</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Indonesia">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">1.7973</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.78653</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.79666</maxSubResource>
+					<mid-price fillout="1" year="1975">10.9</mid-price>
+					<mid-price fillout="1" year="2035">10.4</mid-price>
+					<mid-price fillout="1" year="2075">10.0</mid-price>
+					<curve-exponent fillout="1" year="1975">1.385</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.341</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.3</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.78105</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.77888</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.78895</maxSubResource>
+					<mid-price fillout="1" year="1975">4.6</mid-price>
+					<mid-price fillout="1" year="2035">4.5</mid-price>
+					<mid-price fillout="1" year="2075">4.3</mid-price>
+					<curve-exponent fillout="1" year="1975">3.66</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.369</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.361</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Japan">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">0.14899</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.15275</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.15326</maxSubResource>
+					<mid-price fillout="1" year="1975">0.6</mid-price>
+					<mid-price fillout="1" year="2035">0.3</mid-price>
+					<mid-price fillout="1" year="2075">0.6</mid-price>
+					<curve-exponent fillout="1" year="1975">1.0</curve-exponent>
+					<curve-exponent fillout="1" year="2035">75.5</curve-exponent>
+					<curve-exponent fillout="1" year="2075">75.5</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.02599</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.02897</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.02949</maxSubResource>
+					<mid-price fillout="1" year="1975">4.1</mid-price>
+					<mid-price fillout="1" year="2035">5.5</mid-price>
+					<mid-price fillout="1" year="2075">7.5</mid-price>
+					<curve-exponent fillout="1" year="1975">1.241</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.501</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.525</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Mexico">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">11.86008</maxSubResource>
+					<maxSubResource fillout="1" year="2035">11.84353</maxSubResource>
+					<maxSubResource fillout="1" year="2075">11.76238</maxSubResource>
+					<mid-price fillout="1" year="1975">2.8</mid-price>
+					<mid-price fillout="1" year="2035">2.9</mid-price>
+					<mid-price fillout="1" year="2075">3.0</mid-price>
+					<curve-exponent fillout="1" year="1975">1.827</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.872</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.9</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">5.44504</maxSubResource>
+					<maxSubResource fillout="1" year="2035">5.48459</maxSubResource>
+					<maxSubResource fillout="1" year="2075">5.39839</maxSubResource>
+					<mid-price fillout="1" year="1975">2.1</mid-price>
+					<mid-price fillout="1" year="2035">2.1</mid-price>
+					<mid-price fillout="1" year="2075">2.2</mid-price>
+					<curve-exponent fillout="1" year="1975">3.702</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.858</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.709</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Middle East">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">72.31075</maxSubResource>
+					<maxSubResource fillout="1" year="2035">72.08705</maxSubResource>
+					<maxSubResource fillout="1" year="2075">72.64495</maxSubResource>
+					<mid-price fillout="1" year="1975">1.6</mid-price>
+					<mid-price fillout="1" year="2035">1.6</mid-price>
+					<mid-price fillout="1" year="2075">1.5</mid-price>
+					<curve-exponent fillout="1" year="1975">3.496</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.583</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.503</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">32.9822</maxSubResource>
+					<maxSubResource fillout="1" year="2035">32.91427</maxSubResource>
+					<maxSubResource fillout="1" year="2075">33.56641</maxSubResource>
+					<mid-price fillout="1" year="1975">2.5</mid-price>
+					<mid-price fillout="1" year="2035">2.6</mid-price>
+					<mid-price fillout="1" year="2075">2.8</mid-price>
+					<curve-exponent fillout="1" year="1975">2.413</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.421</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.623</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Pakistan">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">10.26507</maxSubResource>
+					<maxSubResource fillout="1" year="2035">10.23944</maxSubResource>
+					<maxSubResource fillout="1" year="2075">10.33134</maxSubResource>
+					<mid-price fillout="1" year="1975">1.5</mid-price>
+					<mid-price fillout="1" year="2035">1.6</mid-price>
+					<mid-price fillout="1" year="2075">1.5</mid-price>
+					<curve-exponent fillout="1" year="1975">2.431</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.518</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.425</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">4.63299</maxSubResource>
+					<maxSubResource fillout="1" year="2035">4.63373</maxSubResource>
+					<maxSubResource fillout="1" year="2075">4.74606</maxSubResource>
+					<mid-price fillout="1" year="1975">2.4</mid-price>
+					<mid-price fillout="1" year="2035">1.9</mid-price>
+					<mid-price fillout="1" year="2075">2.2</mid-price>
+					<curve-exponent fillout="1" year="1975">5.435</curve-exponent>
+					<curve-exponent fillout="1" year="2035">4.441</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.103</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Russia">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">8.98179</maxSubResource>
+					<maxSubResource fillout="1" year="2035">8.93086</maxSubResource>
+					<maxSubResource fillout="1" year="2075">8.97545</maxSubResource>
+					<mid-price fillout="1" year="1975">10.4</mid-price>
+					<mid-price fillout="1" year="2035">10.3</mid-price>
+					<mid-price fillout="1" year="2075">10.7</mid-price>
+					<curve-exponent fillout="1" year="1975">1.352</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.322</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.353</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">1.06036</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.07459</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.07349</maxSubResource>
+					<mid-price fillout="1" year="1975">8.9</mid-price>
+					<mid-price fillout="1" year="2035">10.6</mid-price>
+					<mid-price fillout="1" year="2075">10.2</mid-price>
+					<curve-exponent fillout="1" year="1975">150.0</curve-exponent>
+					<curve-exponent fillout="1" year="2035">150.0</curve-exponent>
+					<curve-exponent fillout="1" year="2075">150.0</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="South Africa">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">15.0815</maxSubResource>
+					<maxSubResource fillout="1" year="2035">15.1412</maxSubResource>
+					<maxSubResource fillout="1" year="2075">15.15214</maxSubResource>
+					<mid-price fillout="1" year="1975">2.0</mid-price>
+					<mid-price fillout="1" year="2035">1.9</mid-price>
+					<mid-price fillout="1" year="2075">1.9</mid-price>
+					<curve-exponent fillout="1" year="1975">2.896</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.753</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.799</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">7.09877</maxSubResource>
+					<maxSubResource fillout="1" year="2035">7.21346</maxSubResource>
+					<maxSubResource fillout="1" year="2075">7.23637</maxSubResource>
+					<mid-price fillout="1" year="1975">0.7</mid-price>
+					<mid-price fillout="1" year="2035">0.5</mid-price>
+					<mid-price fillout="1" year="2075">0.5</mid-price>
+					<curve-exponent fillout="1" year="1975">2.229</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.655</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.689</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="South America_Northern">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">1.46398</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.46179</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.443</maxSubResource>
+					<mid-price fillout="1" year="1975">6.2</mid-price>
+					<mid-price fillout="1" year="2035">6.2</mid-price>
+					<mid-price fillout="1" year="2075">6.3</mid-price>
+					<curve-exponent fillout="1" year="1975">3.274</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.217</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.235</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.66295</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.67043</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.65211</maxSubResource>
+					<mid-price fillout="1" year="1975">3.3</mid-price>
+					<mid-price fillout="1" year="2035">3.5</mid-price>
+					<mid-price fillout="1" year="2075">3.4</mid-price>
+					<curve-exponent fillout="1" year="1975">5.738</curve-exponent>
+					<curve-exponent fillout="1" year="2035">6.154</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.497</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="South America_Southern">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">7.39066</maxSubResource>
+					<maxSubResource fillout="1" year="2035">7.52642</maxSubResource>
+					<maxSubResource fillout="1" year="2075">7.49338</maxSubResource>
+					<mid-price fillout="1" year="1975">11.3</mid-price>
+					<mid-price fillout="1" year="2035">10.9</mid-price>
+					<mid-price fillout="1" year="2075">11.1</mid-price>
+					<curve-exponent fillout="1" year="1975">2.329</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.337</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.384</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">3.26326</maxSubResource>
+					<maxSubResource fillout="1" year="2035">3.41557</maxSubResource>
+					<maxSubResource fillout="1" year="2075">3.38581</maxSubResource>
+					<mid-price fillout="1" year="1975">2.6</mid-price>
+					<mid-price fillout="1" year="2035">3.5</mid-price>
+					<mid-price fillout="1" year="2075">3.5</mid-price>
+					<curve-exponent fillout="1" year="1975">1.91</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.397</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.462</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="South Asia">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">6.28698</maxSubResource>
+					<maxSubResource fillout="1" year="2035">6.33085</maxSubResource>
+					<maxSubResource fillout="1" year="2075">6.36708</maxSubResource>
+					<mid-price fillout="1" year="1975">1.6</mid-price>
+					<mid-price fillout="1" year="2035">1.1</mid-price>
+					<mid-price fillout="1" year="2075">1.5</mid-price>
+					<curve-exponent fillout="1" year="1975">1.2</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.013</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.159</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">2.55198</maxSubResource>
+					<maxSubResource fillout="1" year="2035">2.58577</maxSubResource>
+					<maxSubResource fillout="1" year="2075">2.65873</maxSubResource>
+					<mid-price fillout="1" year="1975">1.7</mid-price>
+					<mid-price fillout="1" year="2035">1.5</mid-price>
+					<mid-price fillout="1" year="2075">1.5</mid-price>
+					<curve-exponent fillout="1" year="1975">1.884</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.725</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.758</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="South Korea">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">0.09891</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.10331</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.1037</maxSubResource>
+					<mid-price fillout="1" year="1975">3.8</mid-price>
+					<mid-price fillout="1" year="2035">4.1</mid-price>
+					<mid-price fillout="1" year="2075">4.1</mid-price>
+					<curve-exponent fillout="1" year="1975">1.086</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.123</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.122</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.02067</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.02345</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.02376</maxSubResource>
+					<mid-price fillout="1" year="1975">4.8</mid-price>
+					<mid-price fillout="1" year="2035">3.9</mid-price>
+					<mid-price fillout="1" year="2075">3.5</mid-price>
+					<curve-exponent fillout="1" year="1975">6.47</curve-exponent>
+					<curve-exponent fillout="1" year="2035">5.176</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.101</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Southeast Asia">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">5.04003</maxSubResource>
+					<maxSubResource fillout="1" year="2035">4.99476</maxSubResource>
+					<maxSubResource fillout="1" year="2075">5.07953</maxSubResource>
+					<mid-price fillout="1" year="1975">5.7</mid-price>
+					<mid-price fillout="1" year="2035">5.3</mid-price>
+					<mid-price fillout="1" year="2075">5.5</mid-price>
+					<curve-exponent fillout="1" year="1975">2.109</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.001</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.091</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">2.07808</maxSubResource>
+					<maxSubResource fillout="1" year="2035">2.04548</maxSubResource>
+					<maxSubResource fillout="1" year="2075">2.12851</maxSubResource>
+					<mid-price fillout="1" year="1975">4.0</mid-price>
+					<mid-price fillout="1" year="2035">4.1</mid-price>
+					<mid-price fillout="1" year="2075">3.6</mid-price>
+					<curve-exponent fillout="1" year="1975">4.93</curve-exponent>
+					<curve-exponent fillout="1" year="2035">5.456</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.155</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Taiwan">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">0.05096</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.05101</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.05225</maxSubResource>
+					<mid-price fillout="1" year="1975">0.7</mid-price>
+					<mid-price fillout="1" year="2035">0.6</mid-price>
+					<mid-price fillout="1" year="2075">0.3</mid-price>
+					<curve-exponent fillout="1" year="1975">1.0</curve-exponent>
+					<curve-exponent fillout="1" year="2035">75.5</curve-exponent>
+					<curve-exponent fillout="1" year="2075">75.5</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.01558</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.01582</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.01707</maxSubResource>
+					<mid-price fillout="1" year="1975">3.5</mid-price>
+					<mid-price fillout="1" year="2035">3.5</mid-price>
+					<mid-price fillout="1" year="2075">3.1</mid-price>
+					<curve-exponent fillout="1" year="1975">1.732</curve-exponent>
+					<curve-exponent fillout="1" year="2035">1.845</curve-exponent>
+					<curve-exponent fillout="1" year="2075">1.958</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Argentina">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">17.14247</maxSubResource>
+					<maxSubResource fillout="1" year="2035">17.25383</maxSubResource>
+					<maxSubResource fillout="1" year="2075">17.28016</maxSubResource>
+					<mid-price fillout="1" year="1975">6.0</mid-price>
+					<mid-price fillout="1" year="2035">6.4</mid-price>
+					<mid-price fillout="1" year="2075">6.3</mid-price>
+					<curve-exponent fillout="1" year="1975">2.111</curve-exponent>
+					<curve-exponent fillout="1" year="2035">2.2</curve-exponent>
+					<curve-exponent fillout="1" year="2075">2.202</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">4.88766</maxSubResource>
+					<maxSubResource fillout="1" year="2035">4.99093</maxSubResource>
+					<maxSubResource fillout="1" year="2075">5.04378</maxSubResource>
+					<mid-price fillout="1" year="1975">9.1</mid-price>
+					<mid-price fillout="1" year="2035">9.0</mid-price>
+					<mid-price fillout="1" year="2075">8.9</mid-price>
+					<curve-exponent fillout="1" year="1975">3.15</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.147</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.23</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Colombia">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">1.35247</maxSubResource>
+					<maxSubResource fillout="1" year="2035">1.34204</maxSubResource>
+					<maxSubResource fillout="1" year="2075">1.33917</maxSubResource>
+					<mid-price fillout="1" year="1975">9.4</mid-price>
+					<mid-price fillout="1" year="2035">9.8</mid-price>
+					<mid-price fillout="1" year="2075">9.8</mid-price>
+					<curve-exponent fillout="1" year="1975">3.415</curve-exponent>
+					<curve-exponent fillout="1" year="2035">3.536</curve-exponent>
+					<curve-exponent fillout="1" year="2075">3.482</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.54823</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.54514</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.54268</maxSubResource>
+					<mid-price fillout="1" year="1975">5.6</mid-price>
+					<mid-price fillout="1" year="2035">5.6</mid-price>
+					<mid-price fillout="1" year="2075">5.6</mid-price>
+					<curve-exponent fillout="1" year="1975">4.391</curve-exponent>
+					<curve-exponent fillout="1" year="2035">4.601</curve-exponent>
+					<curve-exponent fillout="1" year="2075">4.498</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<region name="Uruguay">
+			<unlimited-resource delete="1" name="global solar resource"/>
+			<renewresource name="PV_resource">
+				<smooth-renewable-subresource name="PV_resource">
+					<maxSubResource fillout="1" year="1975">0.65035</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.65766</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.65476</maxSubResource>
+					<mid-price fillout="1" year="1975">7.8</mid-price>
+					<mid-price fillout="1" year="2035">7.8</mid-price>
+					<mid-price fillout="1" year="2075">8.2</mid-price>
+					<curve-exponent fillout="1" year="1975">5.307</curve-exponent>
+					<curve-exponent fillout="1" year="2035">5.374</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.655</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+			<renewresource name="CSP_resource">
+				<smooth-renewable-subresource name="CSP_resource">
+					<maxSubResource fillout="1" year="1975">0.17794</maxSubResource>
+					<maxSubResource fillout="1" year="2035">0.18494</maxSubResource>
+					<maxSubResource fillout="1" year="2075">0.1829</maxSubResource>
+					<mid-price fillout="1" year="1975">2.5</mid-price>
+					<mid-price fillout="1" year="2035">4.2</mid-price>
+					<mid-price fillout="1" year="2075">2.5</mid-price>
+					<curve-exponent fillout="1" year="1975">5.529</curve-exponent>
+					<curve-exponent fillout="1" year="2035">8.334</curve-exponent>
+					<curve-exponent fillout="1" year="2075">5.562</curve-exponent>
+				</smooth-renewable-subresource>
+			</renewresource>
+		</region>
+		<global-technology-database>
+			<location-info sector-name="H2 central production" subsector-name="solar">
+				<technology name="electrolysis">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.626</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.626</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.626</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.626</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.626</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.626</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.635</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.645</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.654</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.663</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.673</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.682</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.692</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.702</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.712</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.716</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.719</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.723</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.727</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.73</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.734</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.734</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</technology>
+			</location-info>
+			<location-info sector-name="elec_CSP" subsector-name="CSP">
+				<intermittent-technology name="CSP (dry_hybrid)">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</intermittent-technology>
+				<intermittent-technology name="CSP (recirculating)">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</intermittent-technology>
+			</location-info>
+			<location-info sector-name="elec_CSP_storage" subsector-name="CSP_storage">
+				<technology name="CSP_storage (dry_hybrid)">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>0.95</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</technology>
+				<technology name="CSP_storage (recirculating)">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="CSP_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</technology>
+			</location-info>
+			<location-info sector-name="electricity" subsector-name="solar">
+				<intermittent-technology name="PV">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>1</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</intermittent-technology>
+				<technology name="PV_storage">
+					<period year="1975">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="1990">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2005">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2010">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2015">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2020">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2025">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2030">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2035">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2040">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2045">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2050">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2055">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2060">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2065">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2070">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2075">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2080">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2085">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2090">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2095">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+					<period year="2100">
+						<minicam-energy-input delete="1" name="global solar resource"/>
+						<minicam-energy-input name="PV_resource">
+							<efficiency>0.96</efficiency>
+							<flag>Resource</flag>
+						</minicam-energy-input>
+					</period>
+				</technology>
+			</location-info>
+		</global-technology-database>
+	</world>
+</scenario>
